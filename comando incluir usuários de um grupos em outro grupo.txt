@@ -1,0 +1,2 @@
+dsget group "CN=people,OU=Groups,DC=contoso,DC=local" -members | dsmod group "CN=marketing,OU=Groups,DC=contoso,DC=local" -addmbr
+dsmod succeeded:CN=marketing,OU=Groups,DC=contoso,DC=local
